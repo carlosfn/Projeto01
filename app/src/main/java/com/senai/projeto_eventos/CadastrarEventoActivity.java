@@ -65,7 +65,7 @@ public class CadastrarEventoActivity extends AppCompatActivity {
                 String data = String.format(editTextData.getText().toString(), formatter);
                 //Local local = (Local) spinnerLocais.getSelectedItem();
                 int posicaoLocal = spinnerLocais.getSelectedItemPosition();
-                Local local = (Local) locaisAdapter.getItem(posicaoLocal);
+                Local local = locaisAdapter.getItem(posicaoLocal);
                 Evento evento = new Evento(id, nome, data, local);
 
                 String campoVazio = validar();
