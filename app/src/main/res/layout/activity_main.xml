@@ -13,14 +13,12 @@
         android:background="#FDFDFF" />
 
     <Button
-        android:id="@+id/btnLocal"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:onClick="onClickLocais"
         android:text="Lista de Locais" />
 
     <Button
-        android:id="@+id/btn_agendarEvento"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:onClick="onClickAgendarEvento"

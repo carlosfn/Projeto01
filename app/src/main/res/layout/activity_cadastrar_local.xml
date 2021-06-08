@@ -5,7 +5,6 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView_descricaoLocal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Descrição do Local" />
@@ -18,7 +17,6 @@
         android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/textView_bairroLocal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bairro" />
@@ -31,7 +29,6 @@
         android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/textView_cidadeLocal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cidade" />
@@ -49,7 +46,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_voltar2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,7 +53,6 @@
             android:text="Voltar" />
 
         <Button
-            android:id="@+id/btn_excluir2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

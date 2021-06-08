@@ -7,7 +7,6 @@
     tools:context=".CadastrarEventoActivity">
 
     <TextView
-        android:id="@+id/textView_nomeEvento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nome do evento"
@@ -21,7 +20,6 @@
         android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/textView_dataEvento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Data do evento"
@@ -35,7 +33,6 @@
         android:inputType="date" />
 
     <TextView
-        android:id="@+id/textView_localEvento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Local do evento"
@@ -52,7 +49,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_voltar"
             android:layout_width="wrap_content"
             android:layout_height="55dp"
             android:layout_weight="1"
@@ -60,7 +56,6 @@
             android:text="Voltar" />
 
         <Button
-            android:id="@+id/btn_excluir"
             android:layout_width="wrap_content"
             android:layout_height="55dp"
             android:layout_weight="1"
